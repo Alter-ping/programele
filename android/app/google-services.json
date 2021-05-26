@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309744090225",
+    "project_id": "knygukeitimosiapp",
+    "storage_bucket": "knygukeitimosiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309744090225:android:dd37f9a2fceacaba35efd0",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309744090225-l2htnafpjgl0nhlkj2mekqvrt9ujl3nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWt_aDDv1ucXVopGDtSK_kUK_i3i2VwM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309744090225-l2htnafpjgl0nhlkj2mekqvrt9ujl3nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
