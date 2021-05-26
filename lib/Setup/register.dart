@@ -32,10 +32,6 @@ class _RegisterPageState extends State<RegisterPage> {
         decoration: BoxDecoration(
           color: Colors.grey[300],
         ),
-        // constraints: BoxConstraints(
-        //      maxHeight: 482,
-        //      maxWidth: MediaQuery.of(context).size.width,
-        //     ),
         child: Form(
           key: _formKey,
           child: SingleChildScrollView(
@@ -67,7 +63,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           borderRadius:
                               new BorderRadius.all(Radius.circular(30))),
                       child: TextFormField(
-                        controller: cityController,
+                        controller: _usernameController,
                         decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: " Slapyvardis",

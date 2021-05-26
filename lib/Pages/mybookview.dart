@@ -226,7 +226,9 @@ class _MyBookCardState extends State<MyBookCard> {
                               },
                             ),
                           ),
+
                           //paveikslelio vieta
+
                           Stack(
                             children: <Widget>[
                               SizedBox(

@@ -226,5 +226,3 @@ class _LoginPageState extends State<LoginPage> {
         context, MaterialPageRoute(builder: (context) => RegisterPage()));
   }
 }
-
-//https://stackoverflow.com/questions/63492211/no-firebase-app-default-has-been-created-call-firebase-initializeapp-in

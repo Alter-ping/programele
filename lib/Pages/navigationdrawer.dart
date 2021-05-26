@@ -57,7 +57,7 @@ class _NavigateDrawerState extends State<NavigateDrawer> {
             ),
           ),
 
-          // //Pagr ekranas
+          // //Pagr. ekranas kol kas nereikalingas
 
           // ListTile(
           //   leading: new IconButton(

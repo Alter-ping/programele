@@ -415,33 +415,6 @@ class _AddBookPageState extends State<AddBookPage> {
     );
   }
 
-  // Widget uploadImageButton(BuildContext context) {
-  //   return Container(
-  //     child: Stack(
-  //       children: <Widget>[
-  //         Container(
-  //           padding:
-  //               const EdgeInsets.symmetric(vertical: 5.0, horizontal: 16.0),
-  //           margin: const EdgeInsets.only(
-  //               top: 15, left: 10.0, right: 10.0, bottom: 15),
-  //           decoration: BoxDecoration(
-  //               gradient: LinearGradient(
-  //                 colors: [yellow, orange],
-  //               ),
-  //               borderRadius: BorderRadius.circular(30.0)),
-  //           child: FlatButton(
-  //             onPressed: () => uploadImageToFirebase(context),
-  //             child: Text(
-  //               "Upload Image",
-  //               style: TextStyle(fontSize: 20),
-  //             ),
-  //           ),
-  //         ),
-  //       ],
-  //     ),
-  //   );
-  // }
-
   void addToFb() async {
     final User user = FirebaseAuth.instance.currentUser;
     final uid = user.uid;
@@ -468,8 +441,6 @@ class _AddBookPageState extends State<AddBookPage> {
 
       //KAD ISSOKTU POP UP PRANESANTIS KAD SEKMINGAI PRIDDETA KNYGA
 
-      /*(Scaffold.of(context)
-                            .showSnackBar(SnackBar(content: Text('Successfully Added')));*/
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => Home(uid: widget.uid)),
